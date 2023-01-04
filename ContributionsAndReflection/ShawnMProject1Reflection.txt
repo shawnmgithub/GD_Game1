@@ -1,0 +1,10 @@
+﻿In our first project for the course, we decided to work on a small video game called Hallow's Eve. This game is a twist on traditional horror games, where the player takes on the role of the monster being hunted by the townsfolk. Our, which consisted of an artist, a designer, and two programmers (one of whom was myself).  The artist and designer were in charge of acquiring and creating assets (all acquired assets were open source, created by the artist for this project, or purchased through Unity).The programmers were in charge of making the assets function how we intended them to. Our team enjoyed the project so much that we decided to elaborate on it and work on it further as our final project for the course.
+
+
+To manage and delegate tasks, we used a virtual kanban board on Trello.com and communicated via Discord. The board had the standard ToDo, Doing, and Done columns, as well as two additional columns to help organize our thoughts and plans for the project.
+
+
+As one of the programmers, my responsibilities included implementing the enemy movement patterns and line of sight. I set waypoints for the enemies to navigate to in a specific order and added a cone hitbox attached to the front of the enemy to detect the player. If the player entered the cone, it would trigger game over. I also worked with the game designer to determine the best size and placement for the cone, and collaborated with the other programmer to ensure that my implementation of the enemy vision did not interfere with their implementation of the player's invisibility powerup. Additionally, I added basic footstep sounds to the enemies and implemented a radius around them that would play a heartbeat sound when the player entered the area.
+
+
+Working on this project taught me the importance of effective communication and collaboration in a team environment. It was crucial to ensure that my ideas and solutions did not conflict with those of my team members. Overall, it was a valuable experience that has helped me develop my skills in team software development
